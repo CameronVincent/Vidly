@@ -193,6 +193,14 @@
     <Compile Include="Migrations\202207111813057_CatchingUp.designer.cs">
       <DependentUpon>202207111813057_CatchingUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202207112012276_MemeFix.cs" />
+    <Compile Include="Migrations\202207112012276_MemeFix.designer.cs">
+      <DependentUpon>202207112012276_MemeFix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202207121315109_FixMovieTable.cs" />
+    <Compile Include="Migrations\202207121315109_FixMovieTable.designer.cs">
+      <DependentUpon>202207121315109_FixMovieTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -302,6 +310,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202207111813057_CatchingUp.resx">
       <DependentUpon>202207111813057_CatchingUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202207112012276_MemeFix.resx">
+      <DependentUpon>202207112012276_MemeFix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202207121315109_FixMovieTable.resx">
+      <DependentUpon>202207121315109_FixMovieTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
